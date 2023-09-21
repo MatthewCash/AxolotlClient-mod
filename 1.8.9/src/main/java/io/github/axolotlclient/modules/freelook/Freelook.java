@@ -147,6 +147,6 @@ public class Freelook extends AbstractModule {
 	}
 
 	public boolean needsDisabling() {
-		return mode.get().equals("freelook");
+		return false;
 	}
 }
